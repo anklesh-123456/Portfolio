@@ -6,16 +6,17 @@ import Hero from './compoents/Hero'
 import Navbar from './compoents/Navbar'
 import Project from './compoents/Project'
 import Skills from './compoents/Skills'
+import {menuLinks, projects} from "./data"
 const App = () => {
   return (
    <>
    <div>
-    <Navbar/>
+    <Navbar menuLinks = {menuLinks}/>
     <Bot/>
     <Hero/>
     <About/>
     <Skills/>
-    <Project/>
+    <Project projects={projects}/>
     <Contact/>
     
    </div>

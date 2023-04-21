@@ -3,22 +3,27 @@ import {AiOutlineHtml5} from 'react-icons/ai'
 import {TbBrandCss3,TbBrandJavascript} from 'react-icons/tb'
 import {SiReact} from 'react-icons/si'
 import {SiTailwindcss} from 'react-icons/si'
+import {SiRedux} from 'react-icons/si'
+
 const Skills = () => {
   const skills =[
     {
-      logo:<AiOutlineHtml5/>, level: 'Advance', count:86
+      logo:<AiOutlineHtml5/>, lang: 'HTML', count:86
     },
     {
-      logo:<TbBrandCss3/>, level: 'Advance', count:88
+      logo:<TbBrandCss3/>, lang: 'CSS', count:88
     },
     {
-      logo:<TbBrandJavascript/>, level: 'Intermediate', count:65
+      logo:<TbBrandJavascript/>, lang: 'Javascript', count:65
     },
     {
-      logo:<SiReact/>, level: 'Intermediate', count:75
+      logo:<SiReact/>, lang: 'React JS', count:75
     },
     {
-      logo:<SiTailwindcss/>, level: 'Advance', count:88
+      logo:<SiTailwindcss/>, lang: 'Tailwindcss', count:88
+    },
+    {
+      logo:<SiRedux/>, lang: 'Redux', count:65
     },
     
   ]
@@ -40,7 +45,7 @@ const Skills = () => {
                 {skill.logo}
               </div>
             </div>
-            <p className='text-xl mt-3'>{skill.level}</p>
+            <p className='text-xl mt-3'>{skill.lang}</p>
           </div>
             ))
           }

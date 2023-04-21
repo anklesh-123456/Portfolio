@@ -1,17 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import {FaBars} from 'react-icons/fa'
-const Navbar = () => {
+const Navbar = ({menuLinks}) => {
 const [sticky, setSticky] = useState(false);
 const [open, setOpen] = useState(false);
 
 
-  const menuLinks =[
-    { name: "HOME", link:"#home"},
-    { name: "ABOUT", link:"#about"},
-    { name: "SKILLS", link:"#skills"},
-    { name: "PROJECTS", link:"#projects"},
-    { name: "CONTACT", link:"#contact"},
-      ];
       useEffect(()=>{
         window.addEventListener('scroll',()=>{
           const nav = document.querySelector('nav');

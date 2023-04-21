@@ -11,15 +11,15 @@ const About = () => {
         <div className=' flex md:flex-row  flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto'>
           <div className='py-2'></div>
           <div className='text-gray-400 my-3'>
-            <p className=' text-justify leading-7 w-11/12 mx-auto'>I am Anklesh Dipak Doras I have completed my BE in Mechanical Engineering. This is my official portfolio website to shows all Details and my work on front-end developement .</p>
+            <p className=' text-justify leading-7 w-11/12 mx-auto'>I am Anklesh Dipak Doras I have completed my BE in Mechanical Engineering. This is my official portfolio website to shows all Details and my work on front-end developement.</p>
             <br />
             <br />
-            <a href="./src/assets/ankleshdoras_cv.pdf" download>
+            <a href="./src/assets/Anklesh_Doras_CV.pdf" download>
             <button className='btn-primary '>Download CV</button></a>
           </div>
          
           <div className='flex-1 flex justify-center items-center'>
-            <div className='lg:w-96 h-full relative sm:w-10/12 w-11/12 max-w-sm aboutImg'>
+            <div className=' w-11/12 lg:w-96 h-full relative sm:w-10/12  max-w-sm aboutImg mt-3'>
               <img src={aboutImage} alt=""  className='w-full object-cover bg-cyan-600 rounded-xl'/>
             </div>
           </div>
