@@ -1,9 +1,9 @@
 import React from 'react'
 import {AiOutlineHtml5} from 'react-icons/ai'
-import {TbBrandCss3,TbBrandJavascript} from 'react-icons/tb'
+import {TbBrandCss3,TbBrandJavascript, TbBrandNextjs} from 'react-icons/tb'
 import {SiReact} from 'react-icons/si'
 import {SiTailwindcss} from 'react-icons/si'
-import {SiRedux} from 'react-icons/si'
+import {SiRedux, SiBootstrap} from 'react-icons/si'
 
 const Skills = () => {
   const skills =[
@@ -20,10 +20,17 @@ const Skills = () => {
       logo:<SiReact/>, lang: 'React JS', count:75
     },
     {
-      logo:<SiTailwindcss/>, lang: 'Tailwindcss', count:88
+      logo:<TbBrandNextjs/>, lang: 'Next JS', count:70
+    },
+   
+    {
+      logo:<SiTailwindcss/>, lang: 'Tailwind CSS', count:88
     },
     {
       logo:<SiRedux/>, lang: 'Redux', count:65
+    },
+    {
+      logo:<SiBootstrap/>, lang: 'BootStrap', count:60
     },
     
   ]
